@@ -1,7 +1,7 @@
 import Layout from "@/components/shared/Layout";
 import Link from "next/link";
 import projects from "@/data/archive.json";
-import styles from "../../../styles/ArchivePage.module.css";
+import styles from "../../styles/ArchivePage.module.css";
 
 export default function ArchivePage() {
   return (

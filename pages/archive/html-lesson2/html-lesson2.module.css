@@ -3,7 +3,7 @@
   width: 700px;
   height: 450px;
   border-radius: 5px;
-  color: #333; /* 白文字ではなく本文用に変更 */
+  color: #333;
   display: flex;
   align-items: center;
   padding: 20px;
@@ -33,13 +33,13 @@
 .h2 {
   margin: 5px auto 10px;
   border-bottom: 4px solid #8cb3f8;
-  font-size: 24px; /* 追加 */
+  font-size: 24px;
 }
 
 .subtitle {
   font-size: 16px;
   margin-left: 10px;
-  color: #666; /* サブタイトル用に色追加 */
+  color: #666;
 }
 
 .btnRef1 {
@@ -53,12 +53,12 @@
   color: #fff;
   margin: 15px auto;
   text-decoration: none;
-  border-radius: 5px; /* 角丸追加 */
+  border-radius: 5px;
   transition: all 0.3s ease;
 }
 
 .btnRef1:hover {
   background-color: #fff;
   color: #333;
-  border: 1px solid #333; /* hover時に枠を出す */
+  border: 1px solid #333;
 }

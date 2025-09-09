@@ -2,7 +2,7 @@ import { useState } from "react";
 import Layout from "@/components/shared/Layout";
 import Filter from "@/components/list/Filter";
 import Sort from "@/components/list/Sort";
-import articles from "../../../data/articles.json";
+import articles from "../../data/articles.json";
 import ListCard from "@/components/list/ListCard";
 
 export default function BlogList() {

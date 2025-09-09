@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 import Link from "next/link";
-import articles from "../../../data/articles.json";
-import styles from "../../../styles/ArticleDetail.module.css";
+import articles from "../../data/articles.json";
+import styles from "../../styles/ArticleDetail.module.css";
 import Layout from "@/components/shared/Layout";
 
 export default function ArticleDetail() {
