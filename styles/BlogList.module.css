@@ -1,0 +1,51 @@
+.container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.pageTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.ulGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 32px;
+}
+
+.liCard {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.liCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.date {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.script {
+  font-size: 1rem;
+  margin-bottom: 12px;
+}
+
+.readMore {
+  color: #0070f3;
+  text-decoration: underline;
+}

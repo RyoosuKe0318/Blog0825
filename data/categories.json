@@ -1,0 +1,32 @@
+{
+  "cat": {
+    "title": "猫",
+    "description": "飼い猫”ちくわ”についての話題など",
+    "img": "/main_photos/cat.png"
+  },
+  "law": {
+    "title": "法律",
+    "description": "大学で主に学んでいる刑法を中心に",
+    "img": "/main_photos/seikei.png"
+  },
+  "game": {
+    "title": "ゲーム",
+    "description": "おすすめのテレビゲームなど",
+    "img": "/main_photos/xenoblade.png"
+  },
+  "cebu": {
+    "title": "セブ島",
+    "description": "セブ島留学についての体験談ほか",
+    "img": "/main_photos/cebu.png"
+  },
+  "travel": {
+    "title": "旅行",
+    "description": "過去の旅行記録、国内がメイン",
+    "img": "/main_photos/amanohashidate.JPG"
+  },
+  "other": {
+    "title": "その他",
+    "description": "その他の趣味や日常でのできごとなど",
+    "img": "/main_photos/mountain.JPG"
+  }
+}

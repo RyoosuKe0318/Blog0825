@@ -1,0 +1,98 @@
+.card {
+  background-color: rgb(255, 248, 239);
+  border: 1px solid #000000;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+  padding: 16px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.date {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.script {
+  display: -webkit-box;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 16px;
+}
+
+.rate {
+  color: red;
+  font-weight: bold;
+}
+
+.link {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #3b82f6;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.link:hover {
+  background-color: #2563eb;
+}
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 8px 0;
+}
+
+.categoryTag {
+  display: inline-block;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  padding: 4px 8px;
+  font-size: 0.85rem;
+  color: #333;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.categoryTag:hover {
+  background-color: #ddd;
+}
+
+.rateBox {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 8px 0;
+}
+
+.likeButton {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.likeButton:hover {
+  transform: scale(1.2);
+}

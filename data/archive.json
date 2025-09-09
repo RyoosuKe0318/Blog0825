@@ -1,0 +1,123 @@
+[
+  {
+    "slug": "html-lesson1",
+    "title": "HTML Lesson1 \"Hello, World!\"",
+    "date": "2025-08-08",
+    "script": "最初の授業のため、ITの極めて入門的な内容のみを扱う。",
+    "img": "/archive_photos/h-1.png"
+  },
+  {
+    "slug": "html-lesson2",
+    "title": "HTML Lesson2 \"Card\"",
+    "date": "2025-08-11",
+    "script": "HTML, CSSの基礎的な事項を学ぶ。",
+    "img": "/archive_photos/h-2.png"
+  },
+  {
+    "slug": "html-lesson3",
+    "title": "HTML Lesson3 \"Form\"",
+    "date": "2025-08-11",
+    "script": "HTMLのフォームの基礎を学ぶ。課題にすごく時間がかかった。",
+    "img": "/archive_photos/h-3.png"
+  },
+  {
+    "slug": "html-lesson4",
+    "title": "HTML Lesson4 \"Scholarship\"",
+    "date": "2025-08-12",
+    "script": "if文の導入。元課題はconsoleで表示。",
+    "img": "/archive_photos/h-4.png"
+  },
+  {
+    "slug": "html-lesson5",
+    "title": "HTML Lesson5 \"Lottery\"",
+    "date": "2025-08-13",
+    "script": "JSの初回授業。おみくじはリロードしないと引きなおせない。",
+    "img": "/archive_photos/h-5.png"
+  },
+  {
+    "slug": "html-lesson6",
+    "title": "HTML Lesson6 \"Lucky Color\"",
+    "date": "2025-08-14",
+    "script": "アロー演算子など、JS固有の文法を学ぶ。占いはボタンで引きなおせる。",
+    "img": "/archive_photos/h-6.png"
+  },
+
+  {
+    "slug": "react-lesson7",
+    "title": "React Lesson7 \"Review\"",
+    "date": "2025-08-15",
+    "script": "Reactの初回授業。課題でやってることは今までと大差ない。",
+    "img": "/archive_photos/r-1.png"
+  },
+  {
+    "slug": "react-lesson7.5",
+    "title": "React Lesson7 \"CountDown\"",
+    "date": "2025-08-18",
+    "script": "Reactのチャレンジ問題。時間の計算はややこしい。",
+    "img": "/archive_photos/r-1.5.png"
+  },
+  {
+    "slug": "react-lesson8",
+    "title": "React Lesson8 \"Stopwatch\"",
+    "date": "2025-08-18",
+    "script": "コンポーネントとイベントハンドリングを学び、Reactらしくなってくる。",
+    "img": "/archive_photos/r-2.png"
+  },
+  {
+    "slug": "react-lesson9-10",
+    "title": "React Lesson9&10 \"Task Management\"",
+    "date": "2025-08-19,20",
+    "script": "Reactの最終課題。理解と復習に手いっぱいで、チャレンジ課題まで到達できなかった。",
+    "img": "/archive_photos/r-3.png"
+  },
+
+  {
+    "slug": "nextjs-lesson1-2",
+    "title": "Next.js Lesson1&2 \"Self Introduction\"",
+    "date": "2025-08-21",
+    "script": "NestJSの初回授業。[slug]に頭を悩ませる。",
+    "img": "/archive_photos/n-2.png"
+  },
+  {
+    "slug": "nextjs-lesson3",
+    "title": "Next.js Lesson3 \"Card\"",
+    "date": "2025-08-22",
+    "script": "Tailwindを学ぶ。段々とそれっぽいものが作れるように。",
+    "img": "/archive_photos/n-3.png"
+  },
+  {
+    "slug": "nextjs-lesson4",
+    "title": "Next.js Lesson4 \"Posts\"",
+    "date": "2025-08-25",
+    "script": "Reactで苦しめられたuseStateと友達になる。",
+    "img": "/archive_photos/n-4.png"
+  },
+  {
+    "slug": "nextjs-lesson5",
+    "title": "Next.js Lesson5 \"Products\"",
+    "date": "2025-08-26",
+    "script": "Reactで苦しめられたuseStateと友達になる。",
+    "img": "/archive_photos/n-5.png"
+  },
+  {
+    "slug": "nextjs-lesson6",
+    "title": "Next.js Lesson6 \"API\"",
+    "date": "2025-08-27",
+    "script": "CatchAllを学び、再度[slug]と格闘。",
+    "img": "/archive_photos/n-6.png"
+  },
+  {
+    "slug": "nextjs-lesson7",
+    "title": "Next.js Lesson7 \"Form\"",
+    "date": "2025-08-28",
+    "script": "APIの導入。いつかPythonで自分でAPIを作ってみたい。",
+    "img": "/archive_photos/n-7.png"
+  },
+  {
+    "slug": "nextjs-lesson8-9",
+    "title": "Next.js Lesson8&9 \"Blog\"",
+    "date": "2025-08-29~09-01",
+    "script": "NextJSの最終課題。本ブログページ。",
+    "img": "/archive_photos/n-8.png"
+  }
+]

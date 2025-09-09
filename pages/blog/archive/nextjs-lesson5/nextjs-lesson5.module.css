@@ -1,0 +1,11 @@
+.container {
+  min-height: 100vh;
+  padding: 16px; /* p-4相当 */
+  display: flex; /* flex */
+  flex-direction: column; /* flex-col */
+  align-items: center; /* items-center */
+  gap: 16px; /* gap-4相当 */
+  background-color: #171717; /* 背景色 */
+  color: #fff; /* 文字色 */
+  font-family: "DotGothic16", sans-serif; /* フォント */
+}

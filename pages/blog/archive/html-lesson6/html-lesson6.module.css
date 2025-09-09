@@ -1,0 +1,26 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.fieldset {
+  width: 700px;
+  height: 300px;
+}
+
+.h1 {
+  margin: 10px auto;
+}
+
+.button {
+  margin: 40px;
+}
+
+.msg {
+  font-size: 20px;
+  margin-top: 20px;
+}

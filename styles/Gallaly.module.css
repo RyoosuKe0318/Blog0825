@@ -1,0 +1,56 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  height: 400px;
+  margin: 30px auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.photo {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 12px;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 1.5rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.arrow:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.left {
+  left: 8px;
+}
+
+.right {
+  right: 8px;
+}
+
+.h2 {
+  font-size: 30px;
+  font-weight: bold;
+}

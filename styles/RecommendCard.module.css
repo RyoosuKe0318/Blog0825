@@ -1,0 +1,49 @@
+.h2 {
+  font-size: 2.25rem;
+  font-weight: bold;
+}
+
+.container {
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex-wrap: wrap;
+  border: 1px solid #000;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.card {
+  background-color: rgb(255, 248, 239);
+  border: 1px solid #ccc;
+  padding: 12px;
+  border-radius: 4px;
+  width: 350px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  margin: 0 0 8px 0;
+  font-size: 1.1rem;
+}
+
+.card p {
+  margin: 4px 0;
+  font-size: 0.9rem;
+}
+
+.card a {
+  color: #0070f3;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,64 @@
+.card {
+  background: #fff;
+  width: 700px;
+  height: 450px;
+  border-radius: 5px;
+  color: #333; /* 白文字ではなく本文用に変更 */
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin: 40px auto;
+  box-shadow: 0 0 5px #333;
+}
+
+.cross {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.cross img {
+  width: 300px;
+  height: 400px;
+  border-radius: 5px;
+}
+
+.description {
+  font-weight: normal;
+  font-family: "DotGothic16", sans-serif;
+  color: #333;
+  margin: 0 10px;
+}
+
+.h2 {
+  margin: 5px auto 10px;
+  border-bottom: 4px solid #8cb3f8;
+  font-size: 24px; /* 追加 */
+}
+
+.subtitle {
+  font-size: 16px;
+  margin-left: 10px;
+  color: #666; /* サブタイトル用に色追加 */
+}
+
+.btnRef1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 180px;
+  font-size: 20px;
+  background-color: #333;
+  color: #fff;
+  margin: 15px auto;
+  text-decoration: none;
+  border-radius: 5px; /* 角丸追加 */
+  transition: all 0.3s ease;
+}
+
+.btnRef1:hover {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #333; /* hover時に枠を出す */
+}
