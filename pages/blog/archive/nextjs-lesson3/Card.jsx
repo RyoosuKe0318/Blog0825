@@ -1,6 +1,6 @@
 import styles from "./Card.module.css";
 
-export default function Card({ items }) {
+export default function Card({ items = [] }) {
   return (
     <div className={styles.container}>
       <main className={styles.grid}>
