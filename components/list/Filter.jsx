@@ -61,7 +61,7 @@ export default function Filter({ articles, onFilter }) {
 
     router.push(
       {
-        pathname: "/blog/list",
+        pathname: "/list",
         query: newSelected.length > 0 ? { category: newSelected } : {},
       },
       undefined,

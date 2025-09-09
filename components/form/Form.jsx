@@ -28,7 +28,7 @@ export default function Form() {
     }
 
     router.push({
-      pathname: "/blog/form/confirm",
+      pathname: "/form/confirm",
       query: formData,
     });
   };

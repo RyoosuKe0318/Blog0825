@@ -6,7 +6,7 @@ export default function CategoryCard() {
   const router = useRouter();
 
   const handleClick = (key) => {
-    router.push(`/blog/list/?category=${key}`);
+    router.push(`/list/?category=${key}`);
   };
 
   return (
