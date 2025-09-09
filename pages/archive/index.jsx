@@ -18,8 +18,8 @@ export default function ArchivePage() {
                 key={proj.slug}
                 href={
                   proj.slug === "nextjs-lesson8-9"
-                    ? "/blog"
-                    : `/blog/archive/${proj.slug}`
+                    ? "/"
+                    : `/archive/${proj.slug}`
                 }
                 className={`${styles.card} ${
                   index % 2 === 1 ? styles.cardRight : styles.cardLeft

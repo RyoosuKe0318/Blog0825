@@ -30,7 +30,7 @@ export default function ArticleDetail() {
           {article.category.map((ctg) => (
             <Link
               key={ctg}
-              href={{ pathname: "/blog/list", query: { category: ctg } }}
+              href={{ pathname: "/list", query: { category: ctg } }}
               className={styles.categoryTag}
             >
               #{ctg}

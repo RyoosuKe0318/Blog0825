@@ -14,7 +14,7 @@ export default function RecommendCard({ top }) {
         <div key={article.id} className={styles.card}>
           <h3>{article.title}</h3>
           <p>{article.scrpit}</p>
-          <Link href={`/blog/list/${article.id}`}>記事を読む</Link>
+          <Link href={`/list/${article.id}`}>記事を読む</Link>
         </div>
       ))}
     </div>

@@ -114,7 +114,7 @@ export const Header = () => (
               タスク一覧
             </Link>
             <Link
-              href="/blog/archive/react-lesson9-10"
+              href="/archive/react-lesson9-10"
               style={{ color: "#1976d2", textDecoration: "none" }}
             >
               タスク登録

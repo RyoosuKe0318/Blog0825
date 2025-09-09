@@ -31,11 +31,11 @@ export default function NavButton() {
 
       {open && (
         <div className="absolute right-0 mt-2 w-64 bg-[#e1f7ff] shadow-lg rounded-lg p-4 flex flex-col space-y-4 text-xl">
-          <Link href="/blog">ホーム</Link>
-          <Link href="/blog/list">記事一覧</Link>
-          <Link href="/blog/about">概要</Link>
-          <Link href="/blog/archive">制作アーカイブ</Link>
-          <Link href="/blog/form">お問い合わせフォーム</Link>
+          <Link href="/">ホーム</Link>
+          <Link href="/list">記事一覧</Link>
+          <Link href="/about">概要</Link>
+          <Link href="/archive">制作アーカイブ</Link>
+          <Link href="/form">お問い合わせフォーム</Link>
         </div>
       )}
     </div>
